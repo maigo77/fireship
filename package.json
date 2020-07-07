@@ -1,0 +1,57 @@
+{
+  "name": "v9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/assets/css/style.css -w --output-style compressed",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modern"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "vue-router": "^3.3.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.53",
+    "@vue/cli": "^4.4.1",
+    "axios": "^0.19.1",
+    "sass": "^1.25.1-test.1",
+    "vue": "^2.5.17",
+    "vue-cli": "^2.9.6",
+    "vue-toasted": "^1.1.28",
+    "vuex": "^3.4.0"
+  }
+}
