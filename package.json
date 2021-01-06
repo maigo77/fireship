@@ -47,7 +47,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0-beta.53",
     "@vue/cli": "^4.4.1",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "sass": "^1.25.1-test.1",
     "vue": "^2.5.17",
     "vue-cli": "^2.9.6",
